@@ -50,11 +50,16 @@ def main():
     res = [
         ('po', 'pods', ['g', 'd', 'rm'], None),
         ('dep', 'deployment', ['g', 'd', 'rm'], None),
-        ('sts', 'statefulset', ['g', 'd', 'rm'], None),
+        ('ss', 'statefulset', ['g', 'd', 'rm'], None),
+        ('ds', 'daemonset', ['g', 'd', 'rm'], None),
+        ('job', 'job', ['g', 'd', 'rm'], None),
+        ('cjob', 'cronjob', ['g', 'd', 'rm'], None),
         ('svc', 'service', ['g', 'd', 'rm'], None),
         ('ing', 'ingress', ['g', 'd', 'rm'], None),
         ('cm', 'configmap', ['g', 'd', 'rm'], None),
         ('sec', 'secret', ['g', 'd', 'rm'], None),
+        ('pv', 'persistentvolume', ['g', 'd', 'rm'], None),
+        ('pvc', 'persistentvolumeclaim', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
         ]
